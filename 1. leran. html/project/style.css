@@ -1,0 +1,115 @@
+.head {
+    text-align: center;
+}  
+.logoImg {
+    width: 200px;
+    border-radius: 20px;
+}
+.hello {
+    text-decoration: underline;
+    color: green;
+    letter-spacing: 3px;
+    font-style: italic;
+    font-size: 40px;
+}
+.info {
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+    color: purple;
+    line-height: 20px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.linkContainer {
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.links {
+    margin-left: 20px;
+    color: inherit;
+    text-decoration: none;
+    background-color: rgba(27, 146, 72, 0.5);
+    line-height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+}
+/* history */
+.title {
+    color: blueviolet;
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+    letter-spacing: 3px;
+    font-variant: small-caps;
+    
+}
+.myHis {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-align: justify;
+}
+.thanks {
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+}
+.experiences {
+    width: 300px;
+    height: 360px;
+    background-color: lightblue;
+    border-radius: 20px;
+    border-color: rgb(80, 190, 30);
+    border-style: solid;
+    margin: 20px;
+}
+.experiences:hover {
+    width: 320px;
+    height: 380px;
+    background-color: lightblue;
+    border-radius: 20px;
+    border-color: rgb(80, 190, 30);
+    border-style: solid;
+    margin: 20px;
+    border: 10px solid  rgb(80, 190, 30) ;
+    padding-left: 17px;
+}
+.experiencesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.expImg {
+    width: 298px;
+    height: 100px;
+}
+.comName {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    color: red;
+}
+.footerBut {
+    text-align: center;
+}
+.backImg {
+    background-image: url(./spiderman.jpg);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+@media  screen and (max-width: 780px) {
+    .backImg{
+        background-repeat: repeat-y;
+        background-blend-mode:color-dodge;
+        background-color: rgba(198, 30, 30, 0.394) ;
+}

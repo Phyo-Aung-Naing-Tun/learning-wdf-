@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> dog </title>
+    <style>
+        table{
+            /* border: 1px solid black; */
+            width: 80%;
+            border-collapse: collapse;
+            
+        }
+        thead{
+
+
+        }
+        tbody{
+            /* border: 1px solid black; */
+
+        }
+        th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+        tr:nth-child(even){
+            background-color: rgb(214, 214, 214);
+        }
+        td{
+            border: 1px solid black;
+            padding: 5px;
+            border-collapse: collapse;
+        }
+        .colorBlue{
+            color: blue;
+        }
+        h1{
+            /* border: 1px solid black ; */
+            padding: 6px 3px;
+            color: blue;
+            background-color: lightblue;
+        }
+        .tcenter{
+            text-align: center;
+            font-weight: bold;
+        }
+        p{
+            font-weight: bold;
+        }
+        .section-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .section-one{
+            width: 800px;
+        }
+        .section-two{
+            width: 400px;
+        }
+        .section-two img{
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <section class="section-container">
+        <section class="section-one">
+            <h1>Courses</h1>
+            
+            <p>
+                Here are some course I've taken.
+        
+            </p>
+            
+            <table>
+                <thead>
+                    <th>Course Number</th>
+                    <th>Course Title</th>
+                    <th>Semester taken</th>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tcenter" colspan="3">66666</td>
+                    </tr>
+                    <tr>
+                        <td>66666</td>
+                        <td class="colorBlue">User interface design</td>
+                        <td class="colorBlue">Spring 2022</td>
+                    </tr>
+                    <tr>
+                        <td >66666</td>
+                        <td>User interface design</td>
+                        <td>Spring 2022</td>
+                    </tr>
+                    <tr>
+                        <td>66666</td>
+                        <td>User interface design</td>
+                        <td>Spring 2022</td>
+                    </tr>
+                    <tr>
+                        <td class="tcenter" colspan="3">66666</td>
+                
+                    </tr>
+                    <tr>
+                        <td class="colorBlue">66666</td>
+                        <td>User interface design</td>
+                        <td>Spring 2022</td>
+                    </tr>
+                    <tr>
+                        <td class="colorBlue">66666</td>
+                        <td>User interface design</td>
+                        <td>Spring 2022</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h1>Interests</h1>
+            <p>
+                I am interest in <b>Web development</b>
+            </p>
+        </section>
+
+
+        <section class="section-two">
+            <img src="./project.img/FB_IMG_1663127571271.jpg" alt="">
+
+        </section>
+    </section>
+</body>
+</html>
